@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/0.DFVFqFQZ.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.DlnNxdrR.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.4-hYwalf.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.CtbWrGNo.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.CozejxcH.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CxD05WGO.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.DtwjWfze.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.B8YoGGei.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="w-screen h-screen flex justify-center items-center"><div class="p-4 bg-base-200 w-full max-w-xl rounded-2xl flex flex-col gap-4 shadow-xl"><div class="text-xl pl-2" data-svelte-h="svelte-rqkccd">Goldie&#39;s STL Printing Cost Calculator</div> <div class="w-full"><div class="pl-1 pb-1" data-svelte-h="svelte-f82vec">STL file:</div> <input class="file-input w-full" type="file"></div> <div class="w-full"><div class="pl-1 pb-1" data-svelte-h="svelte-1eixgvb">Infill percentage:</div> <div class="flex"><input type="range" min="10" max="70" class="range range-accent" step="5" value="15"> <div class="text-nowrap pl-4">15 %</div></div> <div class="pl-1 pt-1 text-sm text-gray-500" data-svelte-h="svelte-16inthm">If you don&#39;t know what this means, leave it on the default 15%</div></div> <div class="w-full"><div class="pl-1 pb-1" data-svelte-h="svelte-qfl4ba">Wall loops:</div> <div class="flex"><input type="range" min="1" max="8" class="range range-accent" step="1" value="2"> <div class="text-nowrap pl-4">2</div></div> <div class="pl-1 pt-1 text-sm text-gray-500" data-svelte-h="svelte-1afffzj">If you don&#39;t know what this means, leave it on the default 2</div></div> <div role="alert" class="alert alert-warning" data-svelte-h="svelte-r0endn"><svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg> <span>This is merely an estimation! Usually the estimate will be above the actual price, to be cautious, but can also sometimes be below. Contact me for the final quote.</span></div> <button disabled class="btn btn-primary">Calculate</button></div></div> 
+			
+			<script>
+				{
+					__sveltekit_1lgspbm = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.DlnNxdrR.js"),
+						import("./_app/immutable/entry/app.CozejxcH.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
